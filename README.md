@@ -44,7 +44,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had trouble with trying to make the table view cells big enough so that it could display all the information
 
 ## License
 
