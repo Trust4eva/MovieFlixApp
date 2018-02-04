@@ -52,7 +52,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
         task.resume()
         
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
