@@ -37,14 +37,13 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
-<https://i.imgur.com/wFAKdmC.gif
+https://i.imgur.com/UJH2W65.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I had trouble with trying to make the table view cells big enough so that it could display all the information
+I had trouble with trying to make the table view cells wide enough to display the full title and overview of the movie
 
 ## License
 
