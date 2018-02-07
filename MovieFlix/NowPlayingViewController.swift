@@ -71,6 +71,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
         
         let posterURL = URL(string: baseURLString + posterPathString)!
         cell.posterImageView.af_setImage(withURL: posterURL)
+        self.tableView.rowHeight = 200
         return cell
     }
 
