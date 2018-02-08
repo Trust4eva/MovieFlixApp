@@ -37,7 +37,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-https://i.imgur.com/UJH2W65.gif
+https://i.imgur.com/PU4RA0B.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
