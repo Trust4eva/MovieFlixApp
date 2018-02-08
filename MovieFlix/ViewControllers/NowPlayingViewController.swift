@@ -15,7 +15,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
     
     var movies: [[String:Any]] = []
     var refreshControl: UIRefreshControl!
-
+    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     
     
@@ -58,7 +58,7 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
         task.resume()
         
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return movies.count
     }
@@ -80,8 +80,18 @@ class NowPlayingViewController: UIViewController,UITableViewDataSource {
         self.tableView.rowHeight = 200
         return cell
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell){
+            let movie = movies[indexPath.row]
+            let detailViewController = segue.destination as! DetailViewController
+            detailViewController.movie = movie
+        }
     }
+        
+        
+        override func didReceiveMemoryWarning() {
+            super.didReceiveMemoryWarning()
+        }
 }
