@@ -61,9 +61,9 @@ I had trouble with trying to make the table view cells wide enough to display th
     See the License for the specific language governing permissions and
     limitations under the License.
 
-# Project 2 - *Name of App Here*
+# Project 2 - CineFlix
 
-**MovieFlixApp** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**CineFlix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **3** hours spent in total
 
