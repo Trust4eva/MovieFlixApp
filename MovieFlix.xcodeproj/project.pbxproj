@@ -11,6 +11,7 @@
 		591B74AA202CEBE000057C9A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B74A9202CEBE000057C9A /* DetailViewController.swift */; };
 		591B74AC202CF8F400057C9A /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B74AB202CF8F400057C9A /* PosterCell.swift */; };
 		591B74AE202CF97D00057C9A /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591B74AD202CF97D00057C9A /* SuperheroViewController.swift */; };
+		593BF8AB205B2A2400C8252C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593BF8AA205B2A2400C8252C /* Movie.swift */; };
 		59EFE43320228E1C0093BE8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EFE43220228E1C0093BE8A /* AppDelegate.swift */; };
 		59EFE43820228E1C0093BE8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EFE43620228E1C0093BE8A /* Main.storyboard */; };
 		59EFE43A20228E1C0093BE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EFE43920228E1C0093BE8A /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		591B74A9202CEBE000057C9A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		591B74AB202CF8F400057C9A /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
 		591B74AD202CF97D00057C9A /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
+		593BF8AA205B2A2400C8252C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		59EFE42F20228E1C0093BE8A /* MovieFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59EFE43220228E1C0093BE8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59EFE43720228E1C0093BE8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				59EFE43920228E1C0093BE8A /* Assets.xcassets */,
 				59EFE43B20228E1C0093BE8A /* LaunchScreen.storyboard */,
 				59EFE43E20228E1C0093BE8A /* Info.plist */,
+				593BF8AA205B2A2400C8252C /* Movie.swift */,
 			);
 			path = MovieFlix;
 			sourceTree = "<group>";
@@ -490,6 +493,7 @@
 			files = (
 				59EFE46320262DE40093BE8A /* NowPlayingViewController.swift in Sources */,
 				591B74AC202CF8F400057C9A /* PosterCell.swift in Sources */,
+				593BF8AB205B2A2400C8252C /* Movie.swift in Sources */,
 				591B74AE202CF97D00057C9A /* SuperheroViewController.swift in Sources */,
 				59EFE43320228E1C0093BE8A /* AppDelegate.swift in Sources */,
 				59EFE4652026494D0093BE8A /* MovieCell.swift in Sources */,
